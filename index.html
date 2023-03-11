@@ -19,15 +19,18 @@
          
             <div class="infoleft">
                 <p id="ba">
-                    ccccccccccccc
+                    PLANETAS
                 </p>
             </div>
             <div class="inforight">
                <div class="Planets">
                     <div class="planet">
-                        <p id="mercurio">Mercurio</p>
+                        <p class="planetname">Mercurio</p>
+                        <div>
+                        <a href="https://es.wikipedia.org/wiki/Mercurio_(planeta)">
                         <img src="./image/mercurio.jpg" alt="" id="mer">
-                    </a> 
+                        </a> 
+                    </div>
                         <br/>
                         <span>
                             Longitud del nodo ascendente: 48,331°
@@ -49,8 +52,12 @@
                         </span> <br/>
                     </div>
                     <div class="planet">
-                       <p id="venus">Venus</p>
-                       <img src="./image/venus.jpg" alt="" id="venusimg">
+                       <p id="venus" class="planetname">Venus</p>
+                       <div>
+                       <a href="https://es.wikipedia.org/wiki/Venus_(planeta)">
+                            <img src="./image/venus.jpg" alt="" id="venusimg">
+                            </a>
+                       </div>    
                        <br/>
                        <span>
                         longitud del nodo ascendente: 76,678°
@@ -72,8 +79,12 @@
                       </span> <br/>
                     </div>
                     <div class="planet" id="tierra2">
-                       <p id="tierra">Tierra</p>
-                        <img src="./image/tierra2.jpg">
+                       <p class="planetname">Tierra</p>
+                       <div>
+                        <a href="https://es.wikipedia.org/wiki/Tierra">
+                            <img src="./image/tierra2.jpg">
+                        </a>
+                        </div>    
                         <br/>
                         <span>
                             Longitud del nodo ascendente: 348,73936°
@@ -96,8 +107,12 @@
                         </span><br/>
                     </div>
                     <div class="planet">
-                       <p>Marte</p>
-                       <img src="./image/marte.jpg" alt="">
+                       <p class="planetname">Marte</p>
+                       <div>
+                        <a href="https://es.wikipedia.org/wiki/Marte_(planeta)">
+                            <img src="./image/marte.jpg" alt="">
+                        </a>    
+                        </div>
                        <br/>
                        <span>
                         Longitud del nodo ascendente: 49,562°
@@ -118,9 +133,13 @@
 
                     </div>
                     <div class="planet">
-                       <p>Jupiter</p>
-                       <img src="./image/jupiter.jpg" alt="">
-                      <br/> 
+                       <p class="planetname">Jupiter</p>
+                       <div>
+                        <a href="https://es.wikipedia.org/wiki/Júpiter_(planeta)">
+                           <img src="./image/jupiter.jpg" alt="">
+                           </a>
+                        </div>
+                           <br/> 
                        <span>
                         lonitud del nodo ascendente: 100,492°
                        </span><br/>
@@ -141,8 +160,12 @@
                        </span><br/>
                     </div>
                     <div class="planet">
-                       <p>Saturno</p>
-                       <img src="image/saturn.jpg" alt="" id="saturno">
+                       <p class="planetname">Saturno</p>
+                       <div>
+                        <a href="https://es.wikipedia.org/wiki/Saturno_(planeta)">
+                            <img src="image/saturn.jpg" alt="" id="saturno">
+                        </a>
+                    </div>    
                        <br/>
                        <span>
                         Longitud del nodo ascendente: 113,642811°
@@ -164,8 +187,13 @@
                        </span><br/>
                     </div>
                     <div class="planet">
-                       <p>Urano</p>
-                       <img src="./image/Uranus2.jpg" alt="">
+                       <p class="planetname">Urano</p>
+                       <div>
+                       <a href="https://es.wikipedia.org/wiki/Urano_(planeta)">
+                        <img src="./image/Uranus2.jpg" alt="">
+                       </a>
+                    </div>   
+
                        <br/>
                        <span>
                             Longitud del nodo ascendente: 73,989 821°
@@ -189,8 +217,12 @@
 
                     </div>
                     <div class="planet">
-                       <p id="nept">Neptuno</p>
-                       <img src="./image/Neptuno.jpg" alt="" id="neptuno">
+                       <p class="planetname">Neptuno</p>
+                       <div>
+                        <a href="https://es.wikipedia.org/wiki/Neptuno_(planeta)">
+                            <img src="./image/Neptuno.jpg" alt="" id="neptuno">
+                        </a>    
+                        </div>
                        <br/>
                        <span>
                         Longitud del nodo ascendente: 131,794310°
@@ -215,8 +247,16 @@
                        </span><br/>
                     </div>
                     <div class="planet">
-                       <p id="plu">Pluton (planeta enano)</p>
-                       <img src="./image/pluton.jpg" alt="">
+                       <p class="planetname" id="plutontext">Pluton</p>
+                       <br/>
+                       <span id="plut">
+                        (planeta enano)
+                       </span>
+                        <div>  
+                            <a href="https://es.wikipedia.org/wiki/Plutón_(planeta_enano)">
+                                <img src="./image/pluton.jpg" alt="">
+                            </a>    
+                        </div>
                        <br/>
                        <span>
                         Longitud del nodo ascendente: 110,28683°
@@ -234,12 +274,25 @@
                         Excentricidad: 0,244
                        </span><br/>
                        <span>
-                        Anomalía media: 14,86012204° 
+                        Anomalía media: 14,86012204°
                        </span><br/>
+                       
                     </div>
                </div> 
                
             </div>
+        </div>
+        <div id="solestrella">
+            <div id="infosun">
+                <p id="sol">Sol</p>
+                <p id="type">(estrella)</p>
+                <div class="sun-img">
+                    <a href="https://es.wikipedia.org/wiki/Sol">
+                        <img src="./image/sun.jpg" alt="" id="sun" >
+                    </a>    
+                    <p id="sun-properties">Se formó hace aproximadamente 4600 millones de años a partir del colapso gravitacional de la materia dentro de una región de una gran nube molecular. La mayor parte de esta materia se acumuló en el centro, mientras que el resto se aplanó en un disco en órbita que se convirtió en el sistema solar. La masa central se volvió cada vez más densa y caliente, dando lugar con el tiempo al inicio de la fusión nuclear en su núcleo. Se cree que casi todas las estrellas se forman por este proceso. El Sol es más o menos de edad intermedia y no ha cambiado drásticamente desde hace más de cuatro mil millones de años, y seguirá siendo bastante estable durante otros 5000 millones de años más. Sin embargo, después de que la fusión del hidrógeno en su núcleo se haya detenido, el Sol sufrirá cambios importantes y se convertirá en una gigante roja. Se estima que el Sol se volverá lo suficientemente grande como para engullir las órbitas actuales de Mercurio, Venus y posiblemente la Tierra.</p>
+                    
+                </div>
         </div>
 
 </body>

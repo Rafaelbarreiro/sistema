@@ -22,9 +22,11 @@ body {
     background-image: url('./image/fondo.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .subtitle{
+    margin-right: 14px;
     margin-left: 50%;
     background-color: rgb(22,22,22,.8);
     border: 2px solid #e5cb97;
@@ -34,18 +36,35 @@ body {
     font-size: 15px;
 }
 .infoleft{
+    width: 75px;
+    margin-left: 15px;
     margin-top: 15px;
    border: 2px solid #e5cb97;
    background-color: rgb(22,22,22,.8);
     
 }
 #ba{
-    color: red;
+    margin-top: 960%;;
+    font-size: 40px;
+    color: white;
+    transform: rotate(-0.25turn);
+    text-align: center
+     /*   text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+    0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092;
+  color: #fccaff; */
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500,
+  0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;   
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500,
+  0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+color: #fff6a9;
+    
+    
 }
 .inforight{
     border: 2px solid #e5cb97;
     width: 89%;
     margin-top: 15px;
+        
     background-color: rgb(22,22,22,.8);
     
 }
@@ -57,6 +76,7 @@ body {
 .Planets{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    font-family: 'Times New Roman', Times, serif;
 }
 #mercurio {
     color: #e6e6e6;
@@ -83,9 +103,9 @@ body {
     font-size: x-large;
     color: #e6e6e6
 }
-#saturno{
+
     
-}
+
 a:-webkit-any-link {
     color: black
 }
@@ -96,7 +116,54 @@ a:-webkit-any-link {
 .planet {
     color: white;
     padding: 20px;
+
 }
 .subtitle {
-    margin-right: 11px;
+    margin-right: 14px;
+}
+.planet {
+    background-color: rgb(22,22,22,.74);
+}
+#infosun {
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid #e5cb97;
+    color: white;
+    margin-top: 16px;
+    margin-left: 14px;
+    margin-right: 14px;
+   font-size: x-large;
+   background-color: rgb(22,22,22,.8);
+}
+.planetname {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}#plutontext {
+    margin-bottom: 0px;
+}
+
+#sun {
+    
+    height: 171px;
+    width: 171px;
+}
+#sol {
+    padding-left: 65px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+#type {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 35px;
+}
+.sun-img {
+    display: flex;
+    flex-direction: row;
+}
+#sun-properties {
+    font-size: 17px;
+    margin-top: 0;
+}
+#solestrella {
+    margin-left: 16px;
 }

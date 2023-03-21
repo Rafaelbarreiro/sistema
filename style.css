@@ -3,6 +3,10 @@
 /* h1{
     color:blueviolet
 } */
+#header {
+    margin-right: .7%;
+}
+
 #prueba{
     color:#e5cb97;
     text-align: end;
@@ -45,6 +49,7 @@ body {
 }
 #ba{
     margin-top: 960%;;
+    margin-left: 4px;
     font-size: 40px;
     color: white;
     transform: rotate(-0.25turn);
@@ -103,7 +108,9 @@ color: #fff6a9;
     font-size: x-large;
     color: #e6e6e6
 }
-
+.text-header{
+    color: white;
+}
     
 
 a:-webkit-any-link {
@@ -129,8 +136,8 @@ a:-webkit-any-link {
     border: 2px solid #e5cb97;
     color: white;
     margin-top: 16px;
-    margin-left: 14px;
-    margin-right: 14px;
+    margin-left: 22px;
+    margin-right: 12px;
    font-size: x-large;
    background-color: rgb(22,22,22,.8);
 }
@@ -147,6 +154,7 @@ a:-webkit-any-link {
     width: 171px;
 }
 #sol {
+    
     padding-left: 65px;
     margin-bottom: 0px;
     margin-top: 10px;
@@ -166,4 +174,59 @@ a:-webkit-any-link {
 }
 #solestrella {
     margin-left: 16px;
+    margin-right: 1%;
+}
+.footer{
+    background-color: black;
+    border: solid 1px white;
+    margin-top: 35px;
+    padding: 5px;
+    color: white;
+    border-radius: 15px;
+    width: 100%;
+   
+    
+}
+#footer-text {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.embed {
+    color: white;
+    padding: 17px;
+    background-color: rgb(22,22,22,.74);
+    border: 2px solid #e5cb97 ;
+    margin-left: 22px;
+    margin-right: 12px;
+    margin-top: 17px;
+}
+#origin {
+    margin-top: 0;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 600px){
+    .subtitle{
+        margin-right: 3px;
+        margin-left: 0;
+        background-color: rgb(22,22,22,.8);
+        border: 2px solid #e5cb97;
+        color: #e6e6e6;
+        padding-left: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+    .Planets{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #infosun{
+        margin: 0;
+    }
+    .sun-img{
+        display: flex;
+        flex-direction: column;
+    }
 }
